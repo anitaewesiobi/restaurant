@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+  /*----------NAVBAR---------*/
+
+.navbar{
+    background-color: rgb(1, 1, 63)!important;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.navbar-nav li {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navbar-nav a {
+    color: rgb(145, 31, 31)!important;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.navbar-brand , .nav-logo {
+    color: white!important;
+    font-size: 20px;
+}
+/*-----------HEADER-----------*/
+.header-btn {
+    border-radius: 30px;
+    color: white;
+    background-color:rgb(145, 31, 31);
+    width: 250px;
+}
+
+header {
+    background-image: url(./images/mgg-vitchakorn-IiZ2Gqxm5Pg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+header h3 {
+    color: white;
+    font-size: 20px;
+}
+header h1 {
+    color:white;
+    font-size: 60px;
+    font-weight: 300;
+}
+header p {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+/*-----------OUR STORY --------------*/
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: white;
+    box-shadow: 0 0 20px 7px rgba(0,0,0, 0.2);
+}
+.welcome h1 {
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(58, 1, 1);
+    font-weight: 700;
+}
+.welcome h3{
+    color: rgb(61, 61, 61);
+    font-family: 'Great Vibes', cursive;
+
+}
+.welcome .home-btn {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: navy;
+}
+
+.welcome .home-btn:focus {
+box-shadow: none;
+}
+
+#services .desc {
+    margin-top: -20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+}
+#services h3 {
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;
+}
+#services h2 {
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    color: white;
+}
+#services h4 {
+    padding-top: 50px;
+    font-size: 40px;
+ font-family: 'Great Vibes', cursive;
+    color: rgb(247, 247, 247);
+}
+#services .fa-certificate {
+    color: rgb(255, 196, 0);
+    padding-left: 2px;
+}
+#services p {
+ margin-top: -10px;
+font-family: 'Great Vibes', cursive;
+font-weight: 600;
+color: gray;
+}
+#services .fa-bookmark {
+    margin-left: 313px;
+    position: absolute;
+    color: rgb(255, 196, 0);
+    font-size: 50px;
+}
+#services {
+    margin-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.377)), url(./images/navy-texture.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+/*-------MENU--------*/
+.box-menu-item {
+    padding: 50px 100px;
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 0 0 20px 7px rgba(0,0,0, 0.2);
+}
+.box-menu-item .discover {
+   font-family: 'Great Vibes', cursive;
+   color: grey;
+   font-size: 16px;
+}
+.box-menu-item .our-menu {
+   font-family: 'IBM Plex Serif', serif; 
+   color: rgb(29, 29, 29);
+   font-weight: 900;
+   font-size: 50px;
+}
+.box-menu-item .pick {
+   font-family: 'IBM Plex Serif', serif; 
+   color: rgb(39, 39, 39);
+   font-size: 15px;
+   font-weight: 600;
+}
+.box-menu-item .row h2 {
+font-family: 'IBM Plex Serif', serif;
+font-weight: 900;
+font-size: 16px;
+}
+
+.box-menu-item .row p {
+font-family: 'IBM Plex Serif', serif;
+font-weight: 700;
+font-size: 14px;
+color: grey;
+}
+.box-menu-item .row img {
+max-height: 60px;
+}
+
+
+/*----------------ABOUT SECTION --------------*/
+
+#about {
+    padding: 100px 100px;
+}
+#about h2 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 900;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+    
+}
+#about h3 {
+    margin: 20px auto;
+     font-family: 'Great Vibes', cursive;
+   color: grey;
+   font-size: 18px;
+    
+}
+#about p {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+}
+#about [alt="chef coooking"] {
+box-shadow: 0px 0px 20px 1px rgba(0,0,0, 0.2);
+}
+/* --------------------RESERVATION ----------------------*/
+#reservation {
+   margin-top: 100px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./images/reservation.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#reservation .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#reservation .booking {
+    background-color: #fff;
+}
+#reservation .address {
+    background-color: grey;
+}
+#reservation .open {
+background-color: rgb(61, 61, 61);
+font-family: 'IBM Plex Serif', serif;
+font-weight: 900;
+color: white;
+font-size: 40px;
+margin-bottom: -5px;
+}
+#reservation .times {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-size: 20px;
+}
+#reservation .open-times {
+    padding: 10px;
+    color: rgb(195, 195, 195);
+    background-color: rgb(61, 61, 61);
+    font-size: 18px;
+    margin-top:-10px;
+    padding-top: 20px;
+    margin-bottom: 15px; 
+}
+#reservation .phone {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    margin:-10px;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 900;
+    
+}
+#reservation .booking .online {
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    padding-top: 50px;
+    color: rgb(119, 119, 119);
+}
+#reservation .booking h4 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 900;
+    color: black;
+    font-size: 50px;
+}
+#reservation .booking p {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 900;
+    color: rgb(90, 89, 89);
+    font-size: 16px;
+}
+#reservation .booking input {
+    width: 320px;
+    margin: 10px;
+    margin-left: 25px;
+    text-justify: center;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 1px solid grey;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 500;
+    color: grey;
+    box-shadow: none;
+    background: transparent;
+}
+#reservation .booking #message {
+     width: 670px;
+}
+#reservation .booking input:focus{
+    box-shadow: none;
+    background: transparent;
+}
+/* ----- TESTIMONIALS ------------*/
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials .col-md-4{
+    padding: 10px 30px;
+    
+}
+#testimonials img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -30px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+
+}
+#testimonials h1 {
+    margin-bottom: 20px;
+    color: navy;
+}
+#testimonials h3 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+#testimonials p {
+    padding-bottom: 30px;
+}
+.review {
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0, 0.2);
+}
+.review .fa-star{
+    color: gold!important;
+    font-size: 16px;
+}
+
+
+/*---------------------------*/
+.subscribe {
+    padding: 50px 20px;
+    background-color: navy;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0, 0.2);
+    margin-bottom: -160px;
+}
+.subscribe h3, .subscribe p {
+    color: white;
+}
+.subscribe .input-group {
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .form-control {
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append {
+    background-image: linear-gradient(to right, #1c035b, #5c8bef);
+    border-radius: 30px;
+}
+.subscribe .input-group-text{
+background: transparent;
+border: none;
+color: #fff;
+}
+.subscribe .btn:focus{
+box-shadow: none;
+}
+/*------------------FOOTER-------------*/
+#footer {
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+.footer-logo .fas{
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.footer-logo {
+     font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+#footer h3 {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#footer p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.footer-icon {
+    padding-right:20px;
+    font-size: 15px; 
+}
+/*----------------GALLERY--------------*/
+.gallery{
+    margin-bottom: -100px;
+    box-shadow: 0 0 20px 7px rgba(0,0,0, 0.2); 
+}
